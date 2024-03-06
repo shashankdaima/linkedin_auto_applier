@@ -1,3 +1,4 @@
 cookies
 .env
 chromedriver
+*/__pycache__/*
