@@ -6,7 +6,7 @@ chromeOptions = Options()
 chromeOptions.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2}) 
 chromeOptions.add_argument("--no-sandbox") 
 chromeOptions.add_argument("--disable-setuid-sandbox") 
-chromeOptions.add_argument("--headless=new")
+# chromeOptions.add_argument("--headless=new")
 chromeOptions.add_argument("--remote-debugging-port=9222")  # this
 
 chromeOptions.add_argument("--disable-dev-shm-using") 
